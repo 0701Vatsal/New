@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Individual Registration</title>
+		<link rel="icon" href="img/registration.png">
+	</head>
+	<body style = "background-color:lightblue">
+	<h2 style="color:red" align="center">Individual Registration</h2>
+	<table  width="100%">
+		<form method="post">
+			<tr>
+				<td colspan="4"><b>User Particulars</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" width="40%" align="right"><sup style="color:red">*</sup>LoginID</td>
+				<td colspan="2" width="60%"><input type="textbox" name="Loginid" placeholder="LoginId" 	required></td>
+			</tr>
+			<tr>
+				<td colspan="2" width="40%" align="right"><sup style="color:red">*</sup>Password</td>
+				<td colspan="2" width="60%"><input type="password" name="password" placeholder="password" required></td>
+			</tr>
+			<tr>
+				<td colspan="2" width="40%" align="right"><sup style="color:red">*</sup>Confirm Password</td>
+				<td colspan="2" width="60%"><input type="password" name="confirmpassword" placeholder="confirmpassword" required></td>
+			</tr>
+			<tr>
+				<td colspan="4"><b>Personal Particulars</b></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right"><sup style="color:red">*</sup>Salutation</td>
+				<td width="25%">
+					<select name="salutation">
+						<option value="">Select</option>
+						<option value="Mr">Mr</option>
+						<option value="Mrs">Mrs</option>
+						<option value="Ms">Ms</option>
+					</select>
+				</td>
+				<td width="25%" align="right"><sup style="color:red">*</sup>First Name</td>
+				<td width="25%"><input type="text" name="Fname" placeholder="Enter your First Name" required></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right"><sup style="color:red">*</sup>Middle Name</td>
+				<td width="25%"><input type="text" name="Mname" placeholder="Enter Middle Name" required></td>
+				<td width="25%" align="right"><sup style="color:red">*</sup>Last Name</td>
+				<td width="25%"><input type="text" name="Lname" placeholder="Enter Your Last Name" required></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right"><sup style="color:red">*</sup>Residential Status</td>
+				<td width="25%">
+					<select name="residentialstatus" required>
+						<option value="">Select Residential Status</option>
+						<option value="Yes">Yes</option>
+						<option value="No">No</option>
+					</select>
+				</td>
+				<td width="25%" align="right"><sup style="color:red">*</sup>Country</td>
+				<td width="25%">
+					<select name="country" required>
+						<option value="">Select Country</option>
+						<option value="India">India</option>
+						<option value="UK">UK</option>
+						<option value="US">US</option>
+						<option value="nigeria">Nigeria</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="20%" align="right"><sup style="color:red">*</sup>Email</td>
+				<td width="25%"><input type="email" name="email" placeholder="Enter Emailid" required></td>
+				<td width="25%" align="right"><sup style="color:red">*</sup>Mobile Number</td>
+				<td width="25%"><input type="number" name="cnum" pattern="[0,9]{10,11}" placeholder="Enter Number"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><b>Account Particulars</b></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right"><sup style="color:red">*</sup>15 Digit Account No</td>
+				<td width="25%"><input type="number" name="AccNum" placeholder="Enter Account Number" required></td>
+				<td width="25%" align="right"><sup style="color:red">*</sup>Nick Name</td>
+				<td width="25%"><input type="text" name="nicknaame" pattern="[a-zA-Z]+" placeholder="Enter Nick Name" required></td>
+			</tr>
+			<tr>
+				<td width="25%" align="right"><sup style="color:red">*</sup>Fund Transfer</td>
+				<td width="25%">
+					<select name="Fund Transfer" required>
+						<option value="">Select</option>
+						<option value="Yes">Yes</option>
+						<option value="No">No</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4"><b>Declaration</b></td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<p>
+					I have read understood and hereby agree to the Terms and Conditions in respect of all products and channels<br></p><p>In understand that any changes in the terms and conditions applicable to tbis relationship would be made <br>available to me on request at any IOB brances...osdfn
+					</p>
+				</td>					
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><input type="submit" name="submit"></td>
+				<td colspan="2"><input type="reset" name="reset"></td>
+			</tr>
+		</form>
+	</table>
+	</body>
+</html>

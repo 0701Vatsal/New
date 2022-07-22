@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/contactus.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 	header">
+            <img src="img/logo.png" align="left"><br>
+            <div class="link">
+                <a href="index.html">Home</a>	
+                <a href="aboutus.html">About Us</a>	
+                <a href="ourbusiness.html">Our Business</a>	
+                <a href="newsinfo.html">News Information</a>	
+                <a href="contactus.html">Contact Us</a>
+                <a href="#"><i class="fa fa-phone" style="color:red"></i>Hotline:400-000-000</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-s-12 scale-up-top" style="background-image:url(img/template24.jpg);background-size: 100% 100%;margin-top: 100px;height:auto">
+            <div class="row">
+                <div class="col-6 col-s-12" style="overflow:auto;padding:80px;color:white;font-size: 30px;">
+                    All the words here are for demonstration purposes. Please enter your own business content asset.<br><br>
+                    <img src="img/template25.png" height="50px" style="float:left">
+                    <p style="margin-left:70px;font-size:20px;">Our Location<br>No.XXX,XX District,XX City</p><br>
+                    <hr><br>
+                    <img src="img/template26.png" height="50px" style="float:left">
+                    <p style="margin-left:70px;font-size:20px;">Call Us<br>(+1) 212-XXX-2701 / (+1) 212-XXX-2702</p><br>
+                    <hr><br>
+                    <img src="img/template27.png" height="50px" style="float:left">
+                    <p style="margin-left:70px;font-size:20px;">Service<br>hello@XXXthemes.com sales@XXXthemes.com</p><br>
+                    <hr>
+                </div>
+               <div class="col-6 col-s-12" style="padding:30px;color:white;font-size: 30px;">
+                    <div class="cs" style="height:auto">
+                        <div align="center"><p><b>Contact Us</b></p></div><br>
+                        <div align="center" style="color:black;font-size: 20px;">Contact Us</div>
+                        <form name="myform" action="" method="post" onsubmit="return validate()">>
+                            <div class="cd">
+                                <!--<input type="text" type="text" size="auto" style="border:2px solid rgba(255, 255, 255, 0.589) ;border-radius: 40px;padding:10px;color: rgb(116, 132, 148); background-color: rgb(245, 245, 245); border-color: rgb(245, 245, 245);" placeholder="Name" autofocus required">
+                                <span id="txt" style="background-color: red;color: white;"></span><br><br>-->
+                                <input name="name" type="text" placeholder="Name" size="auto"
+                                style="border-radius: 20px; border:1px solid transparent;padding: 15px;background-color: #F5F5F5;"><br>
+                            <span id="txt" style="background-color: rgb(102, 13, 13);color: white;"></span><br><br>
+                            </div>
+                            <div class="cd">
+                                <!--<input type="text" type="email" size="auto"  placeholder="email" style="border:2px solid rgba(255, 255, 255, 0.589) ;border-radius: 40px;padding:10px;color: rgb(116, 132, 148); background-color: rgb(245, 245, 245); border-color: rgb(245, 245, 245);">
+                                <span id="txt1" style="background-color: red;color: white;"></span><br><br>-->
+                                <input name="email" type="email" placeholder="Email" size="auto"
+                                style="border-radius: 20px;border:1px solid transparent;padding: 15px;background-color: #F5F5F5;"><br>
+                            <span id="txt1" style="background-color: rgb(102, 13, 13);color: white;"></span><br><br>
+                            </div>
+                            <div class="cd">
+                               <!-- <input type="text" size="auto"  placeholder="content" style="border:2px solid rgba(255, 255, 255, 0.589) ;border-radius: 40px;padding:10px;color: rgb(116, 132, 148); background-color: rgb(245, 245, 245); border-color: rgb(245, 245, 245);">
+                                <span id="txt2" style="background-color: red;color: white;"></span><br><br>-->
+                                <textarea name="tarea" placeholder="Content" rows="5" cols="auto"
+                                style="border-radius: 20px;border:1px solid transparent;background-color: #F5F5F5;"></textarea><br>
+                            <span id="txt2" style="background-color: rgb(102, 13, 13);color: white;"></span><br><br>
+                            <br><br>
+                           <!-- <input type="submit" value="Submit" class="sub">
+                            <a href="#"><button class="btn">Submit</button></a> -->
+                            </div>
+                            <div align="center">
+                            <button type="submit" style="background-color: blue;color:white;padding:10px;border-radius:50px;">Submit</button>
+                        </div>
+                        </form>
+                      <!--  <form name="myform" action="" method="post" onsubmit="return validate()">
+                            <h1 align="center">Contact Us</h1>
+                            <p align="center">CONTACT US</p><br><br>
+            
+                            <input name="name" type="text" placeholder="Name" size="auto"
+                                style="border-radius: 5px; border:1px solid transparent;padding: 15px;background-color: #F5F5F5;"><br>
+                            <span id="txt" style="background-color: red;color: white;"></span><br><br>
+            
+                            <input name="email" type="email" placeholder="Email" size="60"
+                                style="border-radius: 5px;border:1px solid transparent;padding: 15px;background-color: #F5F5F5;"><br>
+                            <span id="txt1" style="background-color: red;color: white;"></span><br><br>
+            
+                            <textarea name="tarea" placeholder="Content" rows="8" cols="62"
+                                style="border-radius: 5px;border:1px solid transparent;background-color: #F5F5F5;"></textarea><br>
+                            <span id="txt2" style="background-color: red;color: white;"></span><br><br>
+                            <br><br>
+                            <input type="submit" value="Submit" class="sub">
+                            <a href="#"><button class="btn">Submit</button></a> 
+                        </form>-->
+                    </div>
+                </div>-->   
+               <!-- <div class="col-6 col-s-12">
+                    <div class="cs"><form name="myform" action="" method="post" onsubmit="return validate()">
+                        <h1 align="center">Contact Us</h1>
+                        <p align="center">CONTACT US</p><br><br>
+        
+                        <input name="name" type="text" placeholder="Name" size="60"
+                            style="border-radius: 5px; border:1px solid transparent;padding: 15px;background-color: #F5F5F5;"><br>
+                        <span id="txt" style="background-color: red;color: white;"></span><br><br>
+        
+                        <input name="email" type="email" placeholder="Email" size="60"
+                            style="border-radius: 5px;border:1px solid transparent;padding: 15px;background-color: #F5F5F5;"><br>
+                        <span id="txt1" style="background-color: red;color: white;"></span><br><br>
+        
+                        <textarea name="tarea" placeholder="Content" rows="8" cols="62"
+                            style="border-radius: 5px;border:1px solid transparent;background-color: #F5F5F5;"></textarea><br>
+                        <span id="txt2" style="background-color: red;color: white;"></span><br><br>
+                        <br><br>
+                        /*<input type="submit" value="Submit" class="sub">-->
+                        <!--<button type="submit" style="background-color: blue;color:white;padding:10px;border-radius:50px;">Submit</button>
+                    </form></div>
+                </div>-->
+            </div>
+        </div>
+    </div>  
+    <br>
+	<br>
+    <br>
+    <!--<div class="row">
+        <div class="footer col-6">
+            <img src="img/logo.png">
+            <p>Email: 1234***@XXXX.comAddr: 123, XX street, XX District, XX City</p><br>
+            <b>138-1234-XXXX</b>
+        </div>
+        <div class="footer col-6">
+            <p style="text-align:right;padding-top:20px;padding-right:20px"><i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook-square"></i></p><br><br>
+            <p  style="text-align:right;">© Copyright 2022 - All Rights Reserved</p>
+        </div>
+    </div>
+-->
+<div class="row footerr">
+    <div class="col-6">
+        <img src="img/logo.png">
+        <p>Email: 1234***@XXXX.com Addr: 123, XX street, XX District, XX City</p>
+        <p style="font-weight: bold;">138-1234-XXXX</p>
+    </div>
+    <div class="col-6 footer1">
+        <img src="img/twittericon.jpg" width="10%">
+            <img src="img/fbicon.jpg" width="10%">
+        <p>&copy;Copyright 2022 -All Rights Reserved</p>
+    </div>
+</div>
+
+<script>
+
+
+    function validate() {
+        var name = document.forms["myform"]["name"].value;
+        if (name == "" || name == null) {
+            document.getElementById('txt').innerHTML = 'Please write proper Name';
+        }
+        else if (name.length < 10) {
+            document.getElementById('txt').innerHTML = 'Please write proper email id ';
+        }
+        else {
+            document.getElementById('txt').innerHTML = '';
+            // return false;
+        }
+
+
+        var nameemail = document.forms["myform"]["email"].value;
+        if (nameemail == "" || nameemail == null) {
+            document.getElementById('txt1').innerHTML = 'Please Fill Out Email';
+        }
+        else if (nameemail.length < 10) {
+            document.getElementById('txt1').innerHTML = 'Please Fill Out Limited Email ';
+        }
+        else {
+            document.getElementById('txt1').innerHTML = '';
+            // return false;
+        }
+
+
+        var tarea = document.forms["myform"]["tarea"].value;
+        if (tarea.length < 10) {
+            document.getElementById('txt2').innerHTML = 'Please Long Text';
+            return false;
+        }
+        else {
+            document.getElementById('txt2').innerHTML = '';
+            // return false;
+        }
+
+        //   return false;
+
+    }
+
+
+
+    // var today = new Date();
+    // document.getElementById('dategmt').innerHTML = today;
+
+    // var date = (today.getDate()) + '-' + (today.getMonth() + 1) + '-' + (today.getFullYear());
+    // document.getElementById('date').innerHTML = date;
+
+
+    // var time = (today.getHours()) + ':' + (today.getMinutes()) + ':' + (today.getSeconds());
+    // document.getElementById('time').innerHTML = time;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Result</title>
+        <script>
+        function result()
+	{
+		var hindi=document.getElementById("English").value;
+		var gujarati=document.getElementById("Computer").value;
+		var english=document.getElementById("Science").value;
+		
+		var total=+hindi + +gujarati + +english;
+		var perc=(total*100)/300;
+		if(perc<=40)
+		{
+			document.getElementById("result").innerHTML="Your Total is " + total + " and per % is " + perc + ": Fail";
+			document.getElementById("result").style.color="red";
+			return false;
+		}
+		else if(perc>40 && perc<=60)
+		{
+			document.getElementById("result").innerHTML="Your Total is " + total + " and per % is " + perc + ": Pass";
+			document.getElementById("result").style.color="Green";
+			return false;
+		}
+		else if(perc>60 && perc<=70)
+		{
+			document.getElementById("result").innerHTML="Your Total is " + total + " and per % is " + perc + ": First Class";
+			document.getElementById("result").style.color="Green";
+			return false;
+		}
+		else
+		{
+			document.getElementById("result").innerHTML="Your Total is " + total + " and per % is " + perc + ": Distinction";
+			document.getElementById("result").style.color="Green";
+			return false;
+		}
+	}
+</script>
+    </head>
+    <body>
+        <div align="center">
+        <h1>Enter your Marks</h1>
+        <form onsubmit="return result()">
+            English : <input type="number" id="English" required><br><br>
+            Computer : <input type="number" id="Computer" required><br><br>
+            Science : <input type="number" id="Science" required><br><br>
+            <input type="submit" id="english"><br><br>
+            <h1 id="result"></h1>
+        </form>
+        </div>
+    </body>
+</html>

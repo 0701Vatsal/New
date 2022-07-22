@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color:lightblue;">
+    <div class="row">
+        <div class="col-12 col-s-12">
+            <div align="center"><h1>Calculator</h1></div>
+        </div>
+    </div>
+    <div class="row">
+        <table border="2" width="100%">
+                <tr align ="center">
+                    <td width="30%" align="right"><h2>2000</h2></td>
+                    <td width="20%" align="center"><h2>*</h2></td>
+                    <td width="50%" align="left"><input type="textbox" id="thn" name="thnotes" placeholder="Enter No of 2000Rs Notes"></td>
+                </tr>
+                <tr align ="center">
+                    <td width="30%" align="right"><h2>500</h2></td>
+                    <td width="20%" align="center"><h2>*</h2></td>
+                    <td width="50%" align="left"><input type="textbox" id="fi" name="finotes" placeholder="Enter No of 500Rs Notes"></td>
+                </tr>
+                <tr align ="center">
+                    <td width="30%" align="right"><h2>200</h2></td>
+                    <td width="20%" align="center"><h2>*</h2></td>
+                    <td width="50%" align="left"><input type="textbox" id="tw" name="twonotes" placeholder="Enter No of 200Rs Notes"></td>
+                </tr>
+                <tr align ="center">
+                    <td width="30%" align="right"><h2>100</h2></td>
+                    <td width="20%" align="center"><h2>*</h2></td>
+                    <td width="50%" align="left"><input type="textbox" id="on" name="hnotes" placeholder="Enter No of 100Rs Notes"></td>
+                </tr>
+                <tr align ="center">
+                    <td width="30%" align="right"><h2>50</h2></td>
+                    <td width="20%" align="center"><h2>*</h2></td>
+                    <td width="50%" align="left"><input type="textbox" id="fiv" name="fifnotes" placeholder="Enter No of 50Rs Notes"></td>
+                </tr>
+                <tr align ="center">
+                    <td width="30%" align="right"><h2>20</h2></td>
+                    <td width="20%" align="center"><h2>*</h2></td>
+                    <td width="50%" align="left"><input type="textbox" id="twe" name="twnotes" placeholder="Enter No of 20Rs Notes"></td>
+                </tr>
+                <tr align ="center">
+                    <td width="30%" align="right"><h2>10</h2></td>
+                    <td width="20%" align="center"><h2>*</h2></td>
+                    <td width="50%" align="left"><input type="textbox" id="ten" name="tenotes" placeholder="Enter No of 10Rs Notes"></td>
+                </tr>
+                Result : <br>
+                <input type="text" id="txtresult" name="TextBox3">
+                <br>
+                <input type="button" name="clickbtn" value="Display Result" onclick="add_number()">
+                <script type="text/javascript">
+                    function add_number(){
+                    var a = parseInt(document.getElementById("thn").value);
+                    var b = parseInt(document.getElementById("fi").value);
+                    var c = parseInt(document.getElementById("tw").value);
+                    var d = parseInt(document.getElementById("on").value);
+                    var e = parseInt(document.getElementById("fi").value);
+                    var f = parseInt(document.getElementById("twe").value);
+                    var g = parseInt(document.getElementById("ten").value);
+
+                    var result = (a*2000) + (b*500) + (c*200) + (d*100) + (e*50) + (f*20) + (g*10);
+
+                    document.getElementById("txtresult").value = result;    
+                    }
+                        
+                </script>
+        </table>
+    </div>
+</body>
+</html>

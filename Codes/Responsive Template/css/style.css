@@ -1,0 +1,799 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+	/*For Mobile Phones*/
+[class*="col-"]{
+	width:100%;
+	overflow-x: hidden;
+}
+@media only screen and (min-width: 600px){
+		  /* For tablet: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+ .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+/*@media only screen and (max-width: 600px){
+	/* For Mobile: 
+.col-ss-1 {width: 8.33%;}
+.col-ss-2 {width: 16.66%;}
+.col-ss-3 {width: 25%;}
+.col-ss-4 {width: 33.33%;}
+.col-ss-5 {width: 41.66%;}
+.col-ss-6 {width: 50%;}
+.col-ss-7 {width: 58.33%;}
+.col-ss-8 {width: 66.66%;}
+.col-ss-9 {width: 75%;}
+.col-ss-10 {width: 83.33%;}
+.col-ss-11 {width: 91.66%;}
+.col-ss-12 {width: 100%;}
+}*/
+
+/*For Desktop*/
+@media only screen and (min-width: 768px){
+		  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.header{
+	border:2px solid white;
+	background-color:white;
+	color:black;
+	padding:2%;
+	text-align:center;
+	position:fixed;
+	z-index:30000;
+}
+.header a{
+	padding:0px 17px;
+	color:black;	
+	text-decoration:none;
+	float:left;
+	display:block;
+}
+.link{
+	float:right;
+}
+.header a:hover{
+    font-weight: bold;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px){
+    .header a{
+        width:100%;
+        text-align:center;
+    }
+    .header img{
+        width:100%;
+        text-align:center;
+    }
+    .mainbar51 img{
+        width:100%;	
+    }.mainbar51 img{
+        width:100%;	
+    }
+    .main1 img{
+        width:100%;	
+        align:center;
+    }
+	.ob a{
+		width:100%;
+		align:center;
+	}
+	.main1 h2{
+		width:100%;
+		text-align: center;
+	}
+}
+.mainbar{
+	color:white;
+	border:2px solid white;
+}
+
+.mainbarr{
+	border:3px solid white;
+	width:25%;
+	height:300px;
+	margin-top:75px;
+	margin-left:35%;
+	margin-right:40%;
+	margin-bottom:100px;
+	overflow:auto;
+}
+.mainbarr a{
+	text-decoration:none;
+	color:black;
+	border:2px solid white;
+	color:white;
+	border-radius:30px 30px 30px 30px;
+	margin:35px;
+	padding:15px;
+}
+.mainbar1{
+	text-align:center;
+	padding:2% 2%;
+	float:center;
+}
+.mainbar1 img{
+	padding:2%;
+}
+.mainbar2{
+	/*border:2px solid white;*/
+	background-color:#CCCCFF;
+	text-align:center;
+	padding:20px 20px;
+
+}
+.mainbar21{
+	padding:40px 40px;
+	border:2px solid #CCCCFF;
+	background-color:white;
+	text-align:center;
+	float:left;
+}
+.main{
+	padding:40px 6%;
+	background-color:#CCCCFF;
+}
+.main1{
+	padding:50px 0% 50px 7%;
+	border:3px solid white;
+	/*position:static;*/
+    background-color:white;
+}
+main12{
+	position:static;
+}
+main11{
+	border:2px solid red;
+	position:absolute;
+	top:20px;
+	left:00px;
+	/*margin-top:80px;margin-left:-10px ;*/
+}
+.mainbar3 p1{
+	float:left;
+	margin-top:50px;
+	margin-left:30px;
+	font-size:20px;
+}
+.mainbar31{
+	border:2px solid black;
+	text-align:center;
+	border-radius:50px 50px 50px 50px;
+	padding:10px;
+    margin-top: 50px;
+}
+.mainbar31 a{
+    text-decoration: none;
+    color:black;
+}
+.mainbar5{
+	border:2px solid #CCCCFF;
+	background-color:#CCCCFF;
+	text-align:center;
+}
+.main5{
+	padding:40px 40px;
+	border:2px solid #CCCCFF;
+	background-color:#CCCCFF;
+}
+.mainbar51{
+	margin:20px;
+	border:2px solid #CCCCFF;
+	background-color:white;
+	text-align:center;
+}
+.mainbar51 img{
+	width:100%;
+}
+.main6{
+	border:2px solid white;
+	width:50%;
+	font-size:30px;
+	margin-left:35%;
+	margin-top:35px;
+}
+.mainbar7{
+	padding:40px 4%;
+}
+.main7{
+	border:2px solid #CCCCFF;
+	height:500px;
+	border-radius:40px;
+	/*background-image: linear-gradient(blue 35% ,white 35%, white 30%);*/
+	text-align:center;
+	
+}
+.main7 p{
+	text-align:center;
+	margin-top:50px;
+	font-size:17px;
+}
+
+/*.main7 a{
+	text-decoration:none;
+	color:black;
+	border:2px solid black;
+	padding:10px;
+	border-radius:20px 20px 20px 20px;
+}*/
+.main7 a{
+	text-align:center;border:2px solid black;
+	width:8%;
+	border-radius:40px 40px;
+	text-decoration:none;
+	color:black;
+	padding:10px;
+}
+.main7 a:hover{
+	background-color: #1A53FF;
+}
+.main71{
+	border:2px solid white;
+    width:20%;
+	border-radius:50px 0px 40px 0px ;
+	padding:7px;
+	background-color:white;
+	float:left;
+}
+#grad1{
+	border:2px solid white;
+	border-radius:20px 20px 0px 0px;
+	height:200px;
+    background-image: linear-gradient(blue,#1A53FF);
+  	text-align:center;
+  	color:white;
+	  font-size:30px;
+  	padding-top:70px;
+}
+.mainbar2{
+	/*border:2px solid white;*/
+	background-color:#CCCCFF;
+	text-align:center;
+	padding:20px 20px;
+
+}
+.main8{
+	padding:50px  5%;
+	/*border:2px solid #CCCCFF;*/
+	background-color:#CCCCFF;
+	height:auto;
+	positon:static;
+	float:left;
+}
+.main81{
+	/*border:2px solid red;*/
+	background-color:white;
+	height:284px;
+	float:left;
+}
+.main81 p{
+	padding:15px;
+	margin-left:30px;
+}
+.main81 img{
+	width:100%;
+}
+.main82{
+	margin-top:0px;
+	border:2px solid blue;
+	width:5%;
+	text-align:center;
+	font-weight:bold;
+	background-color:blue;
+	color:white;
+}
+.aa a{
+	text-align:center;border:2px solid black;
+	width:8%;
+	border-radius:40px 40px;
+	text-decoration:none;
+	color:black;
+	padding:10px;
+}
+/*.footer{
+	padding:80px;
+	width:50%;
+	height:110px;
+	border:2px solid red;
+	float:left;
+}
+.sectionn{
+	border: 1px solid black;
+	height:100px;
+	width:25%;
+	text-align:center;
+	padding:20px;
+	background-color:#CCCCFF;
+	float:left;
+	font-size:20px;
+	font-weight:bolder;
+}
+.sectiion{
+	padding:20px;
+	width:100%;
+}*/
+.btn{
+	border:2px solid black;
+	padding:15px 35px;
+	border-radius:50px 50px 50px 50px;
+	color:white;
+	background-color:black;
+	font-size:35px;
+	margin-top: 110px;
+}
+.cs{
+	padding:20px;
+	background-color:white;
+	width:100%;
+	height:400px;
+}
+.cs p{
+	color:black;
+}
+.cd{
+	padding:10px;
+
+}
+.ob{
+	padding:70px;
+	text-align:center;
+	float:left;
+}
+.ob a{
+	text-decoration: none;
+	color:black;
+}
+.ob a:hover{
+	color:blue;
+	font-weight: bold;
+	text-decoration: underline;
+	transition: 2s;
+}
+.ob1{
+	border:2px solid WHITE;
+		height:auto;
+	padding:40px;
+	float:left;
+}
+.ob1 img{
+	width:100%;
+}
+.ob1 p{
+	text-align: center;
+}
+.ob2{
+	/*border: 2px solid red;*/
+	padding:20px 20px;
+	background-color: #CCCCFF;
+	float:left;
+}
+.ni{
+	border:2px solid red;
+	height:400px;
+	padding:40px;
+	float:left;
+}
+.ni1{
+	border:2px solid red;
+	height:40px;
+}
+.ni img{
+	width:100%;
+	height:500px;
+}
+.newss{
+    padding: 0px 6%;
+    background-color: #F7F7F7;
+    /* position: relative; */
+}
+.nibox{
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    background-color: white;
+}
+.nibox img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.inbox{
+    border: 1px solid white;
+    border-bottom: 1px solid #E4E4E4;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 15px;
+    margin-top: -30px;
+    text-align: center;
+    padding: 10px;
+}
+.inbox button{
+    border: 1px solid #E4E4E4;
+}
+.inbox button:hover{
+    background-color: rgba(60, 60, 180, 0.658);
+    color: white;
+}
+.mbtn{
+    padding: 10px 15px;
+    margin-left: -5px;
+    background-color: white;
+    border: 1px solid #666666;
+}
+.btn1{
+	padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+.ab img:hover{
+	transform: scale(1.05);
+}
+.aab div:hover{
+	transform: scale(1.00101);
+	color:#1A53FF;
+}
+
+.abc{
+	border:2px solid red;
+	width:7%;
+	padding:30px;
+	background-color:blue;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	position: relative;
+	top:180px;
+	left:520px;
+	text-decoration: underline;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	background-color:#999999;
+  }
+  
+.tooltiptext {
+	visibility:hidden;
+	width: 100%;
+	background-color:blue;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position:absolute;
+	top:20px;
+	left:400px;
+  }
+  .tooltiptext a{
+	  text-decoration: none;
+	  color:white;
+  }
+  
+  .main81:hover .tooltiptext{
+	  visibility:visible;
+	  
+  }
+  .scale-up-top {
+	-webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-6-11 10:43:10
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-top {
+	0% {
+	  -webkit-transform: scale(0.5);
+			  transform: scale(0.5);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	}
+  }
+  @keyframes scale-up-top {
+	0% {
+	  -webkit-transform: scale(0.5);
+			  transform: scale(0.5);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	}
+  }
+  /*.scale-up-hor-left {
+	-webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}*/
+/* ----------------------------------------------
+ * Generated by Animista on 2022-6-11 10:45:34
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-hor-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-hor-left {
+	0% {
+	  -webkit-transform: scaleX(0.4);
+			  transform: scaleX(0.4);
+	  -webkit-transform-origin: 0% 0%;
+			  transform-origin: 0% 0%;
+	}
+	100% {
+	  -webkit-transform: scaleX(1);
+			  transform: scaleX(1);
+	  -webkit-transform-origin: 0% 0%;
+			  transform-origin: 0% 0%;
+	}
+  }
+  @keyframes scale-up-hor-left {
+	0% {
+	  -webkit-transform: scaleX(0.4);
+			  transform: scaleX(0.4);
+	  -webkit-transform-origin: 0% 0%;
+			  transform-origin: 0% 0%;
+	}
+	100% {
+	  -webkit-transform: scaleX(1);
+			  transform: scaleX(1);
+	  -webkit-transform-origin: 0% 0%;
+			  transform-origin: 0% 0%;
+	}
+  }
+  .slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-7-11 10:19:20
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-right {
+	0% {
+	  -webkit-transform: translateX(1000px);
+			  transform: translateX(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-right {
+	0% {
+	  -webkit-transform: translateX(1000px);
+			  transform: translateX(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  .slide-in-bottom {
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-7-11 10:35:59
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-bottom {
+	0% {
+	  -webkit-transform: translateY(1000px);
+			  transform: translateY(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-bottom {
+	0% {
+	  -webkit-transform: translateY(1000px);
+			  transform: translateY(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  .tooltipp {
+	position: relative;
+	display: inline-block;
+	border: 1px dotted white;
+	background-color:#999999;
+  }
+  
+.tooltipptext {
+	visibility:hidden;
+	width: 100px;
+	background-color:blue;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position:absolute;
+	top:330px;
+	/*left:80px;*/
+	margin-left: 80px;
+  }
+  .tooltipptext a{
+	  text-decoration: none;
+	  color:white;
+  }
+  .main77:hover .ob2{
+	height: 360px;
+}
+  .main77:hover .tooltipptext{
+	  visibility:visible;
+  }
+  .clickhere{
+	border:2px 
+  }
+  .lastbox{
+	padding: 20px;
+  height: 170px;
+  border-right: 1px solid #C7C7C7;
+  margin: 50px 8%;
+  background-color: #E2E3E4;
+  transition: 2s ease-in-out;
+  }
+.sectionn{
+  background-image: url(image/background.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 50px 6%;
+}
+.footer {
+    background-image: url(image/background.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 50px 6%;
+}
+
+.box {
+    padding: 20px;
+    height: 170px;
+    /*border-right: 1px solid red;*/
+    /* margin: 50px 8%; */
+    background-color: #E2E3E4;
+    transition: 2s cubic-bezier(0.65, 0.05, 0.36, 1)-in-out;
+}
+
+@media screen and (max-width:768px) {
+    .box {
+        width: 50%;
+    }
+}
+
+.footerr {
+	/*border:2px solid red;*/
+    padding: 30px 6%;
+}
+.footer1 {
+    text-align: end;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .mainmg {
+        margin-top: 200px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:768px) {
+    .mainmg {
+        margin-top: 200px;
+    }
+}
+.footer p{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+
+.conform {
+    /* border: 1px solid green; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    /*background: linear-gradient(rgb(219, 148, 15, 0.5), rgba(20, 218, 20, 0.5), rgb(14, 14, 214, 0.5)), url(image/mainbackgroundd.jpg);*/
+    /*background-size: 100% 100%;*/
+    /*background-repeat: no-repeat;*/
+}
+.aa{
+	margin-top: 30px;
+	padding:20px;
+}
+/******Scroll Button Code*******/
+
+.scrollup {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+    padding: 10px;
+    color: black;
+    z-index: 1000;
+    display: none;
+    border-radius: 50%;
+}
